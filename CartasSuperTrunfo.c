@@ -7,7 +7,7 @@
 int main() {
   printf("Bem vindo ao Super Trunfo");
   // Área para definição das variáveis para armazenar as propriedades das cidades
-
+char Estado
   // Área para entrada de dados
 
   // Área para exibição dos dados da cidade
