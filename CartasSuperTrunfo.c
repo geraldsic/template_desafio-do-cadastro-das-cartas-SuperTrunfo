@@ -40,7 +40,7 @@ printf("Carta: %s\n", codcarta);
 printf("Cidade: %s\n", cidade);
 printf("População: %d\n", população);
 printf("Área %.2f km²\n", area / 100.0);
-printf("PIB %.2f", pib / 100.0);
+printf("PIB %.2f \n", pib / 100.0);
 
 
 
