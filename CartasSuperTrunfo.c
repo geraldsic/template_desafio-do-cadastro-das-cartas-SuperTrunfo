@@ -71,6 +71,8 @@ int main() {
   scanf("%d", &pturisticos2);  
 
   // Área para exibição dos dados da cidade
+
+//carta 2 exivição  
 printf("\nCarta 1:\n");
 printf("Estado: %s \n", estado); 
 printf("Código: %s \n", codcarta);
@@ -80,6 +82,7 @@ printf("Área %.2f km²\n", area / 100.0);
 printf("PIB %.2f \n", pib / 100.0);
 printf("Número de Pontos Turísticos: %d \n", pturisticos);
 
+//carta 2 exivição
 printf("\nCarta 2:\n");
 printf("Estado: %s \n", estado2); 
 printf("Código: %s \n", codcarta2);
