@@ -11,7 +11,7 @@ int main() {
 =======
     // Área para definição das variáveis para armazenar as propriedades das cidades
   // VARIAVEIS PRA CARTA 1
-  char estado[2];
+  char estado[1];
   char codcarta[4];
   char cidade[50];
   int população;
@@ -19,7 +19,7 @@ int main() {
   float pib;
   int pturisticos;
     // VARIAVEIS PRA CARTA 2
-  char estado2[2];
+  char estado2[1];
   char codcarta2[4];
   char cidade2[50];
   int população2;
@@ -31,7 +31,7 @@ int main() {
   // Área para entrada de dados
  // ENTRADA CARTA 1
   printf("Insira Dados Da PRIMEIRA Carta: \n");
-  printf("Estado: ");
+  printf("Estado - Uma letra de 'A' a 'H': ");
   scanf("%s", estado);
   getchar();
   printf("Código da Carta: ");
@@ -54,7 +54,7 @@ int main() {
   
 // ENTRADA CARTA 2
   printf("\nInsira Dados Da SEGUNDA Carta: \n");
-  printf("Estado: ");
+  printf("Estado - Uma letra de 'A' a 'H': ");
   scanf("%s", estado2);
   getchar();
   printf("Código da Carta: ");
@@ -75,22 +75,23 @@ int main() {
   scanf("%d", &pturisticos2);  
 
   // Área para exibição dos dados da cidade
-printf("Carta 1:\n");
-printf("Estado: %s\n", estado); 
-printf("Carta: %s\n", codcarta);
-printf("Cidade: %s\n", cidade);
-printf("População: %d\n", população);
+printf("\nCarta 1:\n");
+printf("Estado: %s \n", estado); 
+printf("Código: %s \n", codcarta);
+printf("Cidade: %s \n", cidade);
+printf("População: %d \n", população);
 printf("Área %.2f km²\n", area / 100.0);
-printf("PIB %.2f \n\n", pib / 100.0);
+printf("PIB %.2f \n", pib / 100.0);
+printf("Número de Pontos Turísticos: %d \n", pturisticos);
 
-printf("Carta 2:\n");
-printf("Estado: %s\n", estado2); 
-printf("Carta: %s\n", codcarta2);
-printf("Cidade: %s\n", cidade2);
-printf("População: %d\n", população2);
+printf("\nCarta 2:\n");
+printf("Estado: %s \n", estado2); 
+printf("Código: %s \n", codcarta2);
+printf("Cidade: %s \n", cidade2);
+printf("População: %d \n", população2);
 printf("Área %.2f km²\n", area2 / 100.0);
 printf("PIB %.2f \n", pib2 / 100.0);
-
+printf("Número de Pontos Turísticos: %d \n\n", pturisticos2);
 
 return 0;
 } 
