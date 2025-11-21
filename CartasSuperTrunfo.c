@@ -5,11 +5,8 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() {
-<<<<<<< HEAD
   printf("Bem vindo ao Super Trunfo");
   // Área para definição das variáveis para armazenar as propriedades das cidades
-=======
-    // Área para definição das variáveis para armazenar as propriedades das cidades
   // VARIAVEIS PRA CARTA 1
   char estado[1];
   char codcarta[4];
@@ -26,7 +23,6 @@ int main() {
   float area2;
   float pib2;
   int pturisticos2;
->>>>>>> f2a1dd6 (inserido as duas cartas)
 
   // Área para entrada de dados
  // ENTRADA CARTA 1
