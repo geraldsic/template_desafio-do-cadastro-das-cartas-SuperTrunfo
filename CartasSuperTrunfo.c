@@ -7,10 +7,42 @@
 int main() {
   printf("Bem vindo ao Super Trunfo");
   // Área para definição das variáveis para armazenar as propriedades das cidades
-char Estado
+
   // Área para entrada de dados
+ 
+  printf("Insira Dados Da PRIMEIRA Carta: \n");
+  printf("Estado: Uma letra de 'A' a 'H'");
+  scanf("%s", &estado);
+    getchar();
+  printf("Código da Carta:");
+     scanf("%s", &codcarta);
+    getchar();
+  printf("Nome da Cidade:");
+  scanf("%s", &cidade);
+
+  printf("População:");
+  scanf("%d", &população);
+
+  printf("Área (em km²): \n");
+  scanf("%f", &area);  
+
+  printf("PIB: \n");
+  scanf("%f", &pib);  
+
+  printf("Número de Pontos Turísticos: \n");
+  scanf("%d", &pturisticos);  
+
 
   // Área para exibição dos dados da cidade
+printf("Carta 1:\n");
+printf("Estado: %s\n", estado); 
+printf("Carta: %s\n", codcarta);
+printf("Cidade: %s\n", cidade);
+printf("População: %d\n", população);
+printf("Área %.2f km²\n", area / 100.0);
+printf("PIB %.2f", pib / 100.0);
+
+
 
 return 0;
 } 
